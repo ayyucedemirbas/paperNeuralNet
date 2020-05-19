@@ -1,0 +1,39 @@
+COVID-19: Challenges to GIS with Big Data 0.27083471577483803
+
+Application of Data Mining Classification for Covid-19 Infected Status Using Algortima Naïve Method 0.27083471577483803
+
+Automatic Detection of Coronavirus Disease (COVID-19) Using X-ray Images and Deep Convolutional Neural Networks 1.1807795833556971E-79
+
+Mapping the landscape of Artificial Intelligence applications against COVID-19 0.27083471577483803
+
+SEIR and Regression Model based COVID-19 outbreak predictions in India 0.27083471577483803
+
+Detection of Covid-19 From Chest X-ray Images Using Artificial Intelligence: An Early Review 1.1807795833556971E-79
+
+A Study of Knowledge Sharing related to Covid-19 Pandemic in Stack Overflow 1.1807795833556971E-79
+
+CORD-19: The COVID-19 Open Research Dataset 0.27083471577483803
+
+Rapidly Bootstrapping a Question Answering Dataset for COVID-19 0.27083471577483803
+
+Target specific mining of COVID-19 scholarly articles using one-class approach 0.27083471577483803
+
+Integrated Time Series Summarization and Prediction Algorithm and its Application to COVID-19 Data Mining 1.1807795833556971E-79
+
+deepMINE - Natural Language Processing based Automatic Literature Mining and Research Summarization for Early-Stage Comprehension in Pandemic Situations specifically for COVID-19 2.2870927569410717E-90
+
+A Novel Approach of CT Images Feature Analysis and Prediction to Screen for Corona Virus Disease (COVID-19) 1.1807795833556971E-79
+
+Drugs and the renin-angiotensin system in covid-19 0.27083471577483803
+
+Clinical features of covid-19 0.27083471577483803
+
+COVID-19 Related Research by Data Mining in Single Cell Transcriptome Profiles 0.27083471577483803
+
+Acute myocardial injury is common in patients with covid-19 and impairs their prognosis 2.524858176822569E-103
+
+LABORATORY INFORMATION SYSTEM REQUIREMENTS TO MANAGE THE COVID-19 PANDEMIC : A REPORT FROM THE B ELGIAN NATIONAL REFERENCE TESTING CENTER 2.2870927569410717E-90
+
+Is traditional Chinese medicine useful in the treatment of COVID-19? 2.2870927569410717E-90
+
+Potential COVID-19 protease inhibitors: Repurposing FDA-approved drugs 0.27083471577483803
