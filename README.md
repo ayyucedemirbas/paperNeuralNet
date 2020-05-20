@@ -8,11 +8,11 @@ paperNeuralNet isimli klasorde yer alan kodlari calistirarak siz de ayni sonucla
 
 paperNeuralNet/src/paperNeuralNet dizininde 3 adet .java dosyasi bulunmaktadir. Bunlar:
 
-   -ActivationFunctions.java : Aktivasyon fonksiyonlari burada tanimlanmistir
+   - ActivationFunctions.java : Aktivasyon fonksiyonlari burada tanimlanmistir
     
-   -Derivatives.java : Aktivasyon fonksiyonlarinin turevleri backpropagation adiminda kullanilmak uzere burada tanimlanmistir
+   - Derivatives.java : Aktivasyon fonksiyonlarinin turevleri backpropagation adiminda kullanilmak uzere burada tanimlanmistir
     
-   -Driver.java : Yapay sinir agi hesaplamalari ve main fonksiyonu burada yer almaktadir.
+   - Driver.java : Yapay sinir agi hesaplamalari ve main fonksiyonu burada yer almaktadir.
     
 Olusturdugum yapay sinir aginin yapisini kodlarin icinde acikladim, burada da ozetlemem gerekirse,
 
