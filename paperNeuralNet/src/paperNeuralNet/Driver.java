@@ -36,11 +36,12 @@ public class Driver {
 		double[] esikA = {r.nextDouble(), -r.nextDouble(), r.nextDouble()};*/
 		//agirliklari ve esik degerlerini rastgele atamayi denedim fakat iyi bir sonuc vermiyor
 		
-		double[] agirlikGA = {0.129952, -0.923123, 0.570345, - 0.328932, 0.129952, -0.923123, 0.570345, - 0.328932, 0.570345};
-		double[] agirlikAC = {0.164732, 0.752621, 0.570345};
+		double[] agirlikGA = {0.129952, -0.923123, 0.570345, - 0.328932, 0.129952, -0.923123, 0.570345, - 0.328932, 0.570345};//giris katmani ile ara katman arasi agirliklar
+	    double[] agirlikAC = {0.164732, 0.752621, 0.570345};// ara katman ile cikis katmani arasi agirliklar
 		
-		double[] esikA = {0.341332, -0.115223, 0.164732};
-		double[] esikC = {-0.993423};
+		double[] esikA = {0.341332, -0.115223, 0.164732}; // ara katman icin esik degerleri
+		double[] esikC = {-0.993423}; //cikis katmani icin esik degerleri
+		
 		
 		//ogrenme katsayisi ve momentum, en iyi degerlere gore optimize edildi
 		double ogrenmeKS = 0.2; 
@@ -76,7 +77,7 @@ public class Driver {
 			hata = hata- cikti;
 		
 		//Backpropagation
-		//Ara katman - cikti katmani arasi
+		//Cikti katmani ara katman arasi islemler
 		
 		double degisim1= Derivatives.dSigmoid(cikti) * hata;
 		
@@ -95,7 +96,7 @@ public class Driver {
 		agirlikAC[2]= agirlikAC[2]- degisimMiktari3;
 		esikC[0]= esikC[0] + esikCdegisim; 
 		
-		//Girdi katmani - ara katman
+		//Ara katman girdi katmani arasi islemler
 		
 		double degisimA1 = Derivatives.dSigmoid(cikti) *degisim1* agirlikTemp1;
 		double degisimA2 = Derivatives.dSigmoid(cikti) *degisim1* agirlikTemp2;
@@ -158,6 +159,16 @@ public class Driver {
 		
 		System.out.println(ciktiyeni);
 		
+		System.out.println("Ogrenilen agirliklar:");
+		System.out.println("Giris katmani ara katman arasi agirliklar:");
+		for(double d : agirlikGA) {
+			System.out.println(d);
+		}
+		System.out.println("Ara katman cikis katmani arasi agirliklar:");
+		for(double d : agirlikAC) {
+			System.out.println(d);
+		}
+		
 	}
 	
 	public static void main(String[] args) {
@@ -174,7 +185,7 @@ public class Driver {
 		
 		
 		
-		
+		//durumlarin alacagi degerler
 		double B1= 0;
 		double B2= 0;
 		double B3= 1;

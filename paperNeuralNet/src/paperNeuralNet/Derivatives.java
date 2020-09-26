@@ -8,5 +8,8 @@ public class Derivatives {
 		return ActivationFunctions.sigmoid(x)* (1 - ActivationFunctions.sigmoid(x));
 		
 	}
+	static double dhyperbolicTangent(double x) {
+		return 1- ((ActivationFunctions.hyperbolicTangent(x))*(ActivationFunctions.hyperbolicTangent(x)));
+	}
 
 }
